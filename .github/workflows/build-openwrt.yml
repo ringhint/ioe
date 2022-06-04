@@ -68,9 +68,6 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
         
-    - name: Install Others
-      run: cd openwrt && git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
 
