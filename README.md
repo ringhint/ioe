@@ -1,2 +1,2 @@
 # ioe
-check
+check now
